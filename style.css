@@ -326,7 +326,7 @@ position: absolute;
 height: 33px;
 left: 16.91%;
 right: 26.98%;
-top: ;
+top:-30px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -374,7 +374,7 @@ position: absolute;
 width: 140px;
 height: 226px;
 left: 780px;
-top: 1208px;	
+top: 1250px;	
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -389,16 +389,16 @@ position: absolute;
 width: 362px;
 height: 226px;
 left: 480px;
-top: 1308px;
+top: 1378px;
 }.project1:hover{
 background: url("hastane.png") no-repeat;
 background-size: 100% 100%; 
-top: 1308px;}
+top: 1378px;}
 .project1text{position: absolute;
 width: 411px;
 height: 201px;
 left: 860px;
-top: 1308px;
+top: 1368px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -416,18 +416,18 @@ position: absolute;
 width: 362px;
 height: 226px;
 left: 480px;
-top: 1550px;	
+top: 1660px;	
 }
 .project2:hover{
 background: url("library management.png") no-repeat;
 background-size: 100% 100%; 
-top: 1550px;}
+top: 1660px;}
 .project2text{
 position: absolute;
 width: 411px;
 height: 201px;
 left: 860px;
-top: 1550px;
+top: 1660px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -445,15 +445,15 @@ position: absolute;
 width: 362px;
 height: 226px;
 left: 480px;
-top: 1785px;}.project3:hover{
+top: 1945px;}.project3:hover{
 background: url("spelling bee.png") no-repeat;
 background-size: 100% 100%; 
-top: 1785px;}
+top: 1945px;}
 .project3text{position: absolute;
 width: 411px;
 height: 201px;
 left: 860px;
-top: 1785px;
+top: 1945px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -469,15 +469,15 @@ position: absolute;
 width: 362px;
 height: 226px;
 left: 480px;
-top: 2020px;}.project4:hover{
+top: 2230px;}.project4:hover{
 background: url("fuel.png") no-repeat;
 background-size: 100% 100%; 
-top: 2020px;}
+top: 2230px;}
 .project4text{position: absolute;
 width: 411px;
 height: 201px;
 left: 860px;
-top: 2020px;
+top: 2230px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -495,15 +495,15 @@ position: absolute;
 width: 362px;
 height: 226px;
 left: 480px;
-top: 2255px;}.project5:hover{
+top: 2515px;}.project5:hover{
 background: url("tic1.jpg") no-repeat;
 background-size: 100% 100%; 
-top: 2255px;}
+top: 2515px;}
 .project5text{position: absolute;
 width: 411px;
 height: 201px;
 left: 860px;
-top: 2255px;
+top: 2515px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -522,15 +522,15 @@ position: absolute;
 width: 362px;
 height: 226px;
 left: 480px;
-top: 2490px;}.project6:hover{
+top: 2800px;}.project6:hover{
 background: url("minesweeper.png") no-repeat;
 background-size: 100% 100%; 
-top: 2490px;}
+top: 2800px;}
 .project6text{position: absolute;
 width: 411px;
 height: 201px;
 left: 860px;
-top: 2490px;
+top: 2800px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -550,7 +550,7 @@ position: absolute;
 width: 100px;
 height: 226px;
 left: 780px;
-top: 2790px;	
+top: 3150px;	
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -563,7 +563,7 @@ color: #A3ABB2;
 width:750px;
 position: absolute;
 left: 480px;
-top: 2850px;	
+top: 3240px;	
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
