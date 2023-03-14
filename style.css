@@ -1,6 +1,7 @@
 #margin{
 }
 body{
+min-width: 1000px;
 width: 1000px; height:1200px;
 background :#142433;
 margin-left: auto;
