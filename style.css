@@ -542,10 +542,10 @@ line-height: 33px;
 text-align: center;
 letter-spacing: -0.531474px;	
 color: #FFFFFF;}
-.t1{background: url("project.png");
-background-size: 100% 100%; }
-.t2{background: url("skills.jpg");
-background-size: 100% 150%;}
+.t1{background: url("PROJECT.jpg");
+background-size: 95% 100%; }
+.t2{background: url("s2.png");
+background-size: 100% 100%;}
 
 .skillsnametext{
 position: absolute;
