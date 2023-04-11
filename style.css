@@ -361,6 +361,20 @@ font-style: normal;
 font-weight: 500;
 color: #A3ABB2;	
 }
+.projectdetail{
+position: absolute;
+margin-left: 168px;
+margin-top: 1333px;
+	
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+text-align: left;
+letter-spacing: -0.531474px;
+color: #FFE071;
+}
 .projectframe{
 position: absolute;
 width: 980px;
