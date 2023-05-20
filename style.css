@@ -255,12 +255,12 @@ color: #3D3D3D;
  }
 .gallery {
   --z: 32px;  /* control the zig-zag  */
-  --s: 100px; /* control the size */
+  --s: 108px; /* control the size */
   --g: 8px;   /* control the gap */
   
   display: grid;
   gap: var(--g);
-  width: calc(2500px + 8px);
+  width: calc(2500px + 10px);
   grid-auto-flow: column;
 }
 .gallery > img {
@@ -550,8 +550,8 @@ letter-spacing: -0.531474px;
 color: #FFFFFF;}
 .t1{background: url("PROJECT.jpg");
 background-size: 95% 100%; }
-.t2{background: url("s2.png");
-background-size: 100% 100%;}
+.t2{background: url("skillsmg.jpg");
+background-size: 110% 101%;}
 
 .skillsnametext{
 position: absolute;
