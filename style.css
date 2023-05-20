@@ -24,7 +24,8 @@ height: 215px;
 margin-left: 148px;
 margin-top: 178px;
 }.profileinfo:hover{ background: rgb(20,36,51);
-background: linear-gradient(90deg, rgba(20,36,51,1) 3%, rgba(47,99,110,1) 53%, rgba(20,36,51,1) 100%);}
+background: linear-gradient(90deg, rgba(20,36,51,1) 3%, rgba(47,99,110,1) 53%, rgba(20,36,51,1) 100%);
+}
 
 .presim{
 width: 215px;
@@ -116,7 +117,8 @@ background : url("github.png");
 .github:hover{width: 36px;
 height: 36px;
 background-color:purple;
-border-radius: 100%;}
+border-radius: 100%;
+box-shadow: 0 0 5px purple, 0 0 25px purple,0 0 50px purple, 0 0 200px purple;}
 .twitter{
 width: 36px;
 height: 36px;
@@ -129,7 +131,8 @@ background : url("twitter.png");
 .twitter:hover{width: 36px;
 height: 36px;
 background-color:lightblue;
-border-radius: 100%; }
+border-radius: 100%; 
+box-shadow: 0 0 5px lightblue, 0 0 25px lightblue,0 0 50px lightblue, 0 0 200px lightblue;}
 .linkedln{
 width: 36px;
 height: 36px;
@@ -141,6 +144,7 @@ background : url("linkedin.png");
 .linkedln:hover{width: 36px;
 height: 36px;
 background-color:#097de2;
+box-shadow: 0 0 5px #097de2, 0 0 25px #097de2,0 0 50px #097de2, 0 0 200px #097de2;
  
  }
 .youtube{
@@ -154,7 +158,8 @@ background : url("youtube.png");
 .youtube:hover{width: 36px;
 height: 36px;
 background-color:red;
-border-radius: 100%; }
+border-radius: 100%;
+box-shadow: 0 0 5px red, 0 0 25px red,0 0 50px red, 0 0 200px red; }
 .instagram{
 width: 36px;
 height: 36px;
@@ -168,6 +173,7 @@ background : url("instagram.png");
 height: 36px;
 background-color:#ef04dc;
 border-radius: 100%;
+box-shadow: 0 0 5px #ef04dc, 0 0 25px #ef04dc,0 0 50px #ef04dc, 0 0 200px #ef04dc;
  }
  .cv_mail{
 position: absolute;
@@ -183,26 +189,21 @@ width: 290px;
 height: 60px;
 margin-right: 100px;
 top: 0px;
-border-radius:25px;
+border-radius:250px;
+ background:#FFE071;
 
-  --c: #ffc300; /* the border color */
-  --b: 10px;    /* the border thickness*/
-  --g: 0px;     /* the gap on hover */
   
-  padding: calc(var(--g) + var(--b));
-  --_g: #0000 25%,var(--c) 0;
-  background: 
-    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
-     var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
-    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
-     0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-  transition: .3s, background-position .3s .3s;
-  cursor: pointer;
-  background-color: #FFE071;
+
+  
  }.cv:hover{ 
-  --_i: 100%;
+ background:#FFE071;
+box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071; 
+ 
+ 
+ 
+  /*--_i: 100%;
   transition: .3s, background-size .3s .3s;
-border-radius:25px;	 
+border-radius:25px;	 */
  }
  .cvtext{
 	
@@ -230,30 +231,17 @@ margin-left: 328px;
 margin-top: 0px;
 text-align:center;
 border-radius:25px;
-  --c: #ffc300; /* the border color */
-  --b: 10px;    /* the border thickness*/
-  --g: 0px;     /* the gap on hover */
-  
-  padding: calc(var(--g) + var(--b));
-  --_g: #0000 25%,var(--c) 0;
-  background: 
-    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
-     var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
-    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
-     0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-  transition: .3s, background-position .3s .3s;
-  cursor: pointer;
+
   background-color: #FFE071; 
  }
- .mail:hover{  --_i: 100%;
-  transition: .3s, background-size .3s .3s;
-border-radius:25px;}
+ .mail:hover{  background:#FFE071;
+box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071; }
  .mailtext{
 position: absolute;
 width: 128px;
 height: 33px;
 left: 81px;
-top: 24px;
+top: calc(50% - 33px/2 + 0.5px);
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -295,6 +283,7 @@ color: #3D3D3D;
   --mask: 
     conic-gradient(from -135deg at right,#0000,#000 1deg 89deg,#0000 90deg) 
       50%/100% calc(2*var(--z)) repeat-y;
+	  
 }
 .gallery > img:last-child {
   place-self: end;
@@ -409,7 +398,8 @@ margin-top: 1378px;
 }.project1:hover{
 background: url("hastane.png") no-repeat;
 background-size: 100% 100%; 
-margin-top: 1378px;}
+margin-top: 1378px;
+box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;}
 .project1text{position: absolute;
 width: 411px;
 height: 201px;
@@ -437,7 +427,8 @@ margin-top: 1660px;
 .project2:hover{
 background: url("library management.png") no-repeat;
 background-size: 100% 100%; 
-margin-top: 1660px;}
+margin-top: 1660px;
+box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;}
 .project2text{
 position: absolute;
 width: 411px;
@@ -464,7 +455,8 @@ margin-left: 80px;
 margin-top: 1945px;}.project3:hover{
 background: url("spelling bee.png") no-repeat;
 background-size: 100% 100%; 
-margin-top: 1945px;}
+margin-top: 1945px;
+box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;}
 .project3text{position: absolute;
 width: 411px;
 height: 201px;
@@ -485,7 +477,7 @@ position: absolute;
 width: 362px;
 height: 226px;
 margin-left: 80px;
-margin-top: 2230px;}.project4:hover{
+margin-top: 2230px;}.project4:hover{box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
 background: url("fuel.png") no-repeat;
 background-size: 100% 100%; 
 margin-top: 2230px;}
@@ -511,7 +503,7 @@ position: absolute;
 width: 362px;
 height: 226px;
 margin-left: 80px;
-margin-top: 2515px;}.project5:hover{
+margin-top: 2515px;}.project5:hover{box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
 background: url("tic1.jpg") no-repeat;
 background-size: 100% 100%; 
 margin-top: 2515px;}
@@ -538,7 +530,7 @@ position: absolute;
 width: 362px;
 height: 226px;
 margin-left: 80px;
-margin-top: 2800px;}.project6:hover{
+margin-top: 2800px;}.project6:hover{box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
 background: url("minesweeper.png") no-repeat;
 background-size: 100% 100%; 
 margin-top: 2800px;}
