@@ -530,7 +530,8 @@ position: absolute;
 width: 362px;
 height: 226px;
 margin-left: 80px;
-margin-top: 2800px;}.project6:hover{box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
+margin-top: 2800px;}.project6:hover{
+	box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
 background: url("minesweeper.png") no-repeat;
 background-size: 100% 100%; 
 margin-top: 2800px;}
