@@ -50,28 +50,49 @@
 
 <h1 class="projectname" id="project"> Projects <hr /><br/><br/><br/></h1>
 <div class="Projectframe">
-<h3 class="projectdetail">You can reach the links related to the project by clicking on the pictures </h3>
-<img class="project1" onclick="window.location.href='https://www.youtube.com/watch?v=8yr0hwMLsuw';">
-<h3 class="project1text">· C#-Winform interface where doctors and users can make appointments and list them by accessing different interfaces with their information. · A solution was provided to the problem through C# and SQL </h3>
+<h3 class="projectdetail">You can play the videos related to the project by hover the mouse on the pictures </h3>
+<div class="project1" ><video src="Hasta-Doktor-Arayuzlu-Randevu-Sistemi-v1.2.mp4"
+type="video/mp4" muted class="vid1" loop style="border: solid; width: 362px;">
+   </video>
+</div>
+<h3 class="project1text" >· C#-Winform interface where doctors and users can make appointments and list them by accessing different interfaces with their information. · A solution was provided to the problem through C# and SQL <a href="https://github.com/mhmtgks/Hasta-Doktor-Arayuzlu-Randevu-Sistemi-v1.2" style="color: yellow" >   <br/>   Github</a> 
+<a href="https://www.youtube.com/watch?v=8yr0hwMLsuw" style="color: red" >   <br/>   Youtube</a>
+</h3> 
 
-<img class="project2"onclick="window.location.href='https://www.youtube.com/watch?v=KQ6YaMgMvOQ';"></img>
-<h3 class="project2text"> School library management system using by SQL & C# Win-form · A solution was provided to the problem through C# and SQL</h3>
+<div class="project2">
+<video src="Library Management System.mp4"
+type="video/mp4" muted class="vid2" loop style="border: solid; width: 362px;">
+   </video>
+</div>
+<h3 class="project2text"> School library management system using by SQL & C# Win-form · A solution was provided to the problem through C# and SQL <a href="https://github.com/mhmtgks/library_management_system" style="color: yellow" >   <br/>   Github</a>
+<a href="https://www.youtube.com/watch?v=KQ6YaMgMvOQ" style="color: red" >   <br/>   Youtube</a>
+</h3>
 
 
-<img class="project3"onclick="window.location.href='https://github.com/mhmtgks/Group1';"></img>
+<div class="project3"><video src="spellingbeevideo.mp4"
+type="video/mp4" muted class="vid3" loop style="border: solid; width: 362px;">
+   </video>
+</div>
 <h3 class="project3text">· The developed project is a game of creating 20 to 80 words from the general dictionary, consisting of 7 different and one central letter, prepared for use or sufficient in terms of use, for JavaFx.
-· My side of project is the algorithm of game creation (backend).</h3>
-<img class="project4"onclick="window.location.href='https://youtu.be/NX0-vP-TTOQ';"></img>
+· My side of project is the algorithm of game creation (backend). <a href="https://github.com/mhmtgks/Spelling_Bee" style="color: yellow" >   <br/>   Github</a>
+<a href="https://www.youtube.com/watch?v=-aa4YPy1qu4" style="color: red" >   <br/>   Youtube</a>
+</h3>
+<div class="project4"><video src="Vehicle Fuel Consumption-Price Calculator(Android Application)(Self Project).mp4"
+type="video/mp4" muted class="vid4" loop style="border: solid; background-color: black ; width: 356px; height: 200px;">
+   </video>
+   </div>
 <h3 class="project4text">· Android application that calculates how much money the vehicle spends in how many kilometers. This app can keep data in internal storage.
-· Developed using Kotlin.</h3>
+· Developed using Kotlin. <a href="https://github.com/mhmtgks/yakit_hesaplama" style="color: yellow" >   <br/>   Github</a>
+<a href="https://www.youtube.com/watch?v=NX0-vP-TTOQ" style="color: red" >   <br/>   Youtube</a>
+</h3>
 
 <img class="project5"onclick="window.location.href='https://github.com/mhmtgks/TicTacToe_Android_Game';"></img>
 <h3 class="project5text">· This is a BasicModel TicTacToe(XOX) game.
-· Developed using Kotlin.</h3>
+· Developed using Kotlin.<a href="https://github.com/mhmtgks/TicTacToe_Android_Game" style="color: yellow" >   <br/>   Github</a></h3>
 
 <img class="project6"onclick="window.location.href='https://github.com/mhmtgks/Mine_Sweeper';"></img>
 <h3 class="project6text">· Simple Minesweeper game on command prompt.
-· Developed in Emu8086 with assembly (8086 16-bit) .</h3>
+· Developed in Emu8086 with assembly (8086 16-bit) <a href="https://github.com/mhmtgks/Mine_Sweeper" style="color: yellow" >   <br/>   Github</a></h3>
 </div>
 
 <div class="skillframe" >
@@ -98,7 +119,90 @@ Operating Systems <hr /> <br/>
 
 
 </div>
+
+
+
+
 </body>
+   <script>
+
+      // Listening to the video element
+	  let detail = document.querySelector(".projectdetail")
+      let clip1 = document.querySelector(".vid1")
+	  let text1=document.querySelector(".project1text")
+      /* Adding the event listeners on the video to play/pause the video. */
+      clip1.addEventListener("mouseover", function (e) {
+         clip1.play();
+		 clip1.style.transform='scale(1.25)';
+		 text1.style.cssText='margin-left : 500px';
+		 detail.style.cssText='margin-top : 1310px';
+      })
+
+      /* Applying the mouse out event to pause the video */
+      clip1.addEventListener("mouseout", function (e) {
+	clip1.style.transform='scale(1.0)';
+	 text1.style.cssText='margin-left : 460px';
+	 		 detail.style.cssText='margin-top : 1330px';
+         clip1.pause();
+      })
+   </script>
+   <script>
+
+      // Listening to the video element
+      let clip2 = document.querySelector(".vid2")
+let text2=document.querySelector(".project2text")
+      /* Adding the event listeners on the video to play/pause the video. */
+      clip2.addEventListener("mouseover", function (e) {
+         clip2.play();
+		 clip2.style.transform='scale(1.25)';
+		 text2.style.cssText='margin-left : 500px';
+      })
+
+      /* Applying the mouse out event to pause the video */
+      clip2.addEventListener("mouseout", function (e) {
+         clip2.pause();
+		 	clip2.style.transform='scale(1.0)';
+	 text2.style.cssText='margin-left : 460px';
+      })
+   </script>
+      <script>
+let text3=document.querySelector(".project3text")
+      // Listening to the video element
+      let clip3 = document.querySelector(".vid3")
+
+      /* Adding the event listeners on the video to play/pause the video. */
+      clip3.addEventListener("mouseover", function (e) {
+         clip3.play();
+		 clip3.style.transform='scale(1.25)';
+		 text3.style.cssText='margin-left : 500px';
+      })
+
+      /* Applying the mouse out event to pause the video */
+      clip3.addEventListener("mouseout", function (e) {
+	  	clip3.style.transform='scale(1.0)';
+	 text3.style.cssText='margin-left : 460px';
+         clip3.pause();
+      })
+   </script>
+   <script>
+let text4=document.querySelector(".project4text")
+      // Listening to the video element
+      let clip4 = document.querySelector(".vid4")
+
+      /* Adding the event listeners on the video to play/pause the video. */
+      clip4.addEventListener("mouseover", function (e) {
+         clip4.play();
+		 clip4.style.transform='scale(1.25)';
+		 text4.style.cssText='margin-left : 500px';
+      })
+
+      /* Applying the mouse out event to pause the video */
+      clip4.addEventListener("mouseout", function (e) {
+	  	clip4.style.transform='scale(1.0)';
+		text4.style.cssText='margin-left : 460px';
+         clip4.pause();
+      })
+   </script>
 
 
 

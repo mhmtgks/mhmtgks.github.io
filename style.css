@@ -388,18 +388,18 @@ line-height: 33px;
 color: #A3ABB2;
 }
 .project1{
-background: url("hastane1.png") no-repeat;
+
 background-size: 102% 102%; 
 position: absolute;
 width: 362px;
-height: 226px;
+height: 206px;
 margin-left: 80px;
 margin-top: 1378px;
 }.project1:hover{
-background: url("hastane.png") no-repeat;
+
 background-size: 100% 100%; 
 margin-top: 1378px;
-box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;}
+box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;}
 .project1text{position: absolute;
 width: 411px;
 height: 201px;
@@ -416,19 +416,19 @@ letter-spacing: -0.531474px;
 
 color: #FFFFFF;}
 .project2{
-background: url("library2.png") no-repeat;
-background-size: 102% 102%; 
+
+background-size: 100% 100%; 
 position: absolute;
 width: 362px;
-height: 226px;
+height: 206px;
 margin-left: 80px;
 margin-top: 1660px;	
 }
 .project2:hover{
-background: url("library management.png") no-repeat;
+
 background-size: 100% 100%; 
 margin-top: 1660px;
-box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;}
+box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;}
 .project2text{
 position: absolute;
 width: 411px;
@@ -446,17 +446,17 @@ letter-spacing: -0.531474px;
 color: #FFFFFF;	
 }
 
-.project3{background: url("library1.png") no-repeat;
+.project3{
 background-size: 102% 102%; 
 position: absolute;
 width: 362px;
-height: 226px;
+height: 206px;
 margin-left: 80px;
 margin-top: 1945px;}.project3:hover{
-background: url("spelling bee.png") no-repeat;
+
 background-size: 100% 100%; 
 margin-top: 1945px;
-box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;}
+box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;}
 .project3text{position: absolute;
 width: 411px;
 height: 201px;
@@ -471,14 +471,13 @@ line-height: 33px;
 text-align: center;
 letter-spacing: -0.531474px;	
 color: #FFFFFF;	}
-.project4{background: url("fuel2.png") no-repeat;
-background-size: 102% 102%; 
+.project4{
+background-size: 100% 100%; 
 position: absolute;
 width: 362px;
-height: 226px;
+height: 206px;
 margin-left: 80px;
-margin-top: 2230px;}.project4:hover{box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
-background: url("fuel.png") no-repeat;
+margin-top: 2230px;}.project4:hover{box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;
 background-size: 100% 100%; 
 margin-top: 2230px;}
 .project4text{position: absolute;
