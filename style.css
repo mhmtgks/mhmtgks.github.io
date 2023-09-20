@@ -387,7 +387,9 @@ font-size: 42px;
 line-height: 33px;
 color: #A3ABB2;
 }
-.project1{
+.project0{
+background: url("anasayfa1.png") no-repeat;
+background-size: 102% 102%; 
 
 background-size: 102% 102%; 
 position: absolute;
@@ -395,16 +397,46 @@ width: 362px;
 height: 206px;
 margin-left: 80px;
 margin-top: 1378px;
-}.project1:hover{
+}.project0:hover{
 
 background-size: 100% 100%; 
 margin-top: 1378px;
+box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;}
+.project0text{
+
+position: absolute;
+width: 411px;
+height: 201px;
+margin-left: 460px;
+margin-top: 1378px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+letter-spacing: -0.531474px;
+
+color: #FFFFFF;}
+.project1{
+
+background-size: 102% 102%; 
+position: absolute;
+width: 362px;
+height: 206px;
+margin-left: 80px;
+margin-top: 1678px;
+}.project1:hover{
+
+background-size: 100% 100%; 
+margin-top: 1678px;
 box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;}
 .project1text{position: absolute;
 width: 411px;
 height: 201px;
 margin-left: 460px;
-margin-top: 1378px;
+margin-top: 1678px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -422,19 +454,19 @@ position: absolute;
 width: 362px;
 height: 206px;
 margin-left: 80px;
-margin-top: 1660px;	
+margin-top: 1960px;	
 }
 .project2:hover{
 
 background-size: 100% 100%; 
-margin-top: 1660px;
+margin-top: 1960px;
 box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;}
 .project2text{
 position: absolute;
 width: 411px;
 height: 201px;
 margin-left: 460px;
-margin-top: 1660px;
+margin-top: 1960px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -452,16 +484,16 @@ position: absolute;
 width: 362px;
 height: 206px;
 margin-left: 80px;
-margin-top: 1945px;}.project3:hover{
+margin-top: 2245px;}.project3:hover{
 
 background-size: 100% 100%; 
-margin-top: 1945px;
+margin-top: 2245px;
 box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;}
 .project3text{position: absolute;
 width: 411px;
 height: 201px;
 margin-left: 460px;
-margin-top: 1945px;
+margin-top: 2245px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -477,14 +509,14 @@ position: absolute;
 width: 362px;
 height: 206px;
 margin-left: 80px;
-margin-top: 2230px;}.project4:hover{box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;
+margin-top: 2530px;}.project4:hover{box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;
 background-size: 100% 100%; 
-margin-top: 2230px;}
+margin-top: 2530px;}
 .project4text{position: absolute;
 width: 411px;
 height: 201px;
 margin-left: 460px;
-margin-top: 2230px;
+margin-top: 2530px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -502,15 +534,15 @@ position: absolute;
 width: 362px;
 height: 226px;
 margin-left: 80px;
-margin-top: 2515px;}.project5:hover{box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
+margin-top: 2815px;}.project5:hover{box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
 background: url("tic1.jpg") no-repeat;
 background-size: 100% 100%; 
-margin-top: 2515px;}
+margin-top: 2815px;}
 .project5text{position: absolute;
 width: 411px;
 height: 201px;
 margin-left: 460px;
-margin-top: 2515px;
+margin-top: 2815px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -529,16 +561,16 @@ position: absolute;
 width: 362px;
 height: 226px;
 margin-left: 80px;
-margin-top: 2800px;}.project6:hover{
+margin-top: 3100px;}.project6:hover{
 box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
 background: url("minesweeper.png") no-repeat;
 background-size: 100% 100%; 
-margin-top: 2800px;}
+margin-top: 3100px;}
 .project6text{position: absolute;
 width: 411px;
 height: 201px;
 margin-left: 460px;
-margin-top: 2800px;
+margin-top: 3100px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -558,7 +590,7 @@ position: absolute;
 width: 100px;
 height: 226px;
 margin-left: 380px;
-margin-top: 3150px;	
+margin-top: 3450px;	
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -571,7 +603,7 @@ color: #A3ABB2;
 width:750px;
 position: absolute;
 margin-left: 80px;
-margin-top: 3240px;	
+margin-top: 3540px;	
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
