@@ -388,9 +388,6 @@ line-height: 33px;
 color: #A3ABB2;
 }
 .project0{
-background: url("anasayfa1.png") no-repeat;
-background-size: 102% 102%; 
-
 background-size: 102% 102%; 
 position: absolute;
 width: 362px;
@@ -398,7 +395,6 @@ height: 206px;
 margin-left: 80px;
 margin-top: 1378px;
 }.project0:hover{
-
 background-size: 100% 100%; 
 margin-top: 1378px;
 box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;}
@@ -428,7 +424,6 @@ height: 206px;
 margin-left: 80px;
 margin-top: 1678px;
 }.project1:hover{
-
 background-size: 100% 100%; 
 margin-top: 1678px;
 box-shadow: 0 0 50px #FFE071, 0 0 200px #FFE071,0 0 100px #FFE071, 0 0 500px #FFE071;}

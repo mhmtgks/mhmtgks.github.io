@@ -45,10 +45,19 @@
 <h1 class="projectname" id="project"> Projects <hr /><br/><br/><br/></h1>
 <div class="Projectframe">
 <h3 class="projectdetail">You can play the videos related to the project by click or hover the mouse on the pictures </h3>
-
-<img class="project0"onclick="window.location.href='https://github.com/mhmtgks/DHBS_Sistemi';"></img>
-<h3 class="project0text">·Dental Clinic Web Application: All Your Dentistry Needs in One Platform Dental health is of vital importance, and effective management in this field contributes to maintaining patients' healthy smiles. We provide a solution that leverages modern technology to facilitate the work of both patients and dentists<a href="https://github.com/mhmtgks/DHBS_Sistemi" style="color: yellow" >   <br/>   Github</a></h3>
 </div>
+<div class="project0" ><video src="dhbs.mp4"
+type="video/mp4" muted class="vid0" onclick="window.open('https://www.youtube.com/watch?v=qF5kIvhuwfE')" loop style="border: solid; width: 362px;">
+   </video>
+</div>
+
+<h3 class="project0text">·Dental Clinic Web Application: All Your Dentistry Needs in One Platform Dental health is of vital importance, and effective management in this field contributes to maintaining patients' healthy smiles. We provide a solution that leverages modern technology to facilitate the work of both patients and dentists
+<a href="https://github.com/mhmtgks/DHBS_Sistemi" style="color: yellow" >   <br/>   Github</a>
+<a href="https://www.youtube.com/watch?v=qF5kIvhuwfE" style="color: red" >   <br/>   Youtube</a>
+</h3>
+
+
+
 <div class="project1" ><video src="Hasta-Doktor-Arayuzlu-Randevu-Sistemi-v1.2.mp4"
 type="video/mp4" muted class="vid1" onclick="window.open('https://www.youtube.com/watch?v=8yr0hwMLsuw')" loop style="border: solid; width: 362px;">
    </video>
@@ -103,7 +112,7 @@ Frameworks <hr /> <br/>
 &#9679; ASP.NET ★★★☆☆<br/><br/>
 &#9679; .NET MVC ★★★★☆<br/><br/>
 &#9679; SPRING ★★☆☆☆<br/><br/>
-<br/><br/>IDE <hr /><br/>&#9679; VisualStudio(Enterprise-Code)<br/><br/>&#9679; IntellijIdea <br/><br/>&#9679; Pycharm <br/><br/>&#9679;  Eclipse<br/><br/>&#9679; Android Studio<br/><br/>&#9679; 
+<br/><br/>IDE <hr /><br/>&#9679; VisualStudio(Enterprise-Code)<br/><br/>&#9679; IntellijIdea <br/><br/>&#9679; Pycharm <br/><br/>&#9679;  Eclipse<br/><br/>&#9679; Android Studio<br/><br/>&#9679;  Ardunio IDE<br/><br/>&#9679;
 MongoDB<br/><br/>&#9679; Microsoft SQL Server Management Studio<br/><br/>&#9679; Microsoft Office Programs<br/><br/>
 
 <br/><br/>
@@ -129,10 +138,32 @@ Operating Systems <hr /> <br/>
 
 
 </body>
-   <script>
 
+   <script>
+let text0=document.querySelector(".project0text")
       // Listening to the video element
 	  let detail = document.querySelector(".projectdetail")
+      let clip0 = document.querySelector(".vid0")
+
+      /* Adding the event listeners on the video to play/pause the video. */
+      clip0.addEventListener("mouseover", function (e) {
+         clip0.play();
+		 clip0.style.transform='scale(1.25)';
+		 text0.style.cssText='margin-left : 500px';
+		 detail.style.cssText='margin-top : 1310px';
+      })
+
+      /* Applying the mouse out event to pause the video */
+      clip0.addEventListener("mouseout", function (e) {
+	  	clip0.style.transform='scale(1.0)';
+		text0.style.cssText='margin-left : 460px';
+		detail.style.cssText='margin-top : 1330px';
+         clip0.pause();
+      })
+   </script>
+   <script>
+      // Listening to the video element
+	 
       let clip1 = document.querySelector(".vid1")
 	  let text1=document.querySelector(".project1text")
       /* Adding the event listeners on the video to play/pause the video. */
