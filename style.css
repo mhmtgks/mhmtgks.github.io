@@ -188,8 +188,8 @@ position: absolute;
 width: 290px;
 height: 60px;
 margin-right: 100px;
-top: 0px;
-border-radius:250px;
+top: 100px;
+border-radius:300px;
  background:#FFE071;
 
   
@@ -223,14 +223,55 @@ text-align: center;
 letter-spacing: -0.531474px;
 color: #3D3D3D;	 
  }
+  .cvTR{
+position: center;
+width: 618px;
+height: 60px;
+margin-right: 0px;
+top: 0px;
+border-radius:300px;
+ background:#FFE071;
+
+  
+
+  
+ }.cvTR:hover{ 
+ background:#FFE071;
+box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071; 
+ 
+ 
+ 
+  /*--_i: 100%;
+  transition: .3s, background-size .3s .3s;
+border-radius:25px;	 */
+ }
+ .cvTRtext{
+	
+position: absolute;
+height: 33px;
+left: 19.48%;
+right: 18.65%;
+top: 18%;
+background-color:#FFE071;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.531474px;
+color: #3D3D3D;	 
+ }
+ 
  .mail{
 position: absolute;
 width: 290px;
 height: 60px;
 margin-left: 328px;
-margin-top: 0px;
+top: 100px;
 text-align:center;
-border-radius:25px;
+border-radius:300px;
 
   background-color: #FFE071; 
  }
