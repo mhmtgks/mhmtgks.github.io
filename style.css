@@ -564,14 +564,14 @@ letter-spacing: -0.531474px;
 color: #FFFFFF;	}
 
 
-.project5{background: url("tic2.png") no-repeat;
+.project5{background: url("antivirus.png") no-repeat;
 background-size: 102% 102%; 
 position: absolute;
 width: 362px;
 height: 226px;
 margin-left: 80px;
 margin-top: 2815px;}.project5:hover{box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
-background: url("tic1.jpg") no-repeat;
+background: url("antivirus.png") no-repeat;
 background-size: 100% 100%; 
 margin-top: 2815px;}
 .project5text{position: absolute;
@@ -591,7 +591,7 @@ color: #FFFFFF;}
 
 
 
-.project6{background: url("minesweeper2.png") no-repeat;
+.project6{background: url("tic2.png") no-repeat;
 background-size: 102% 102%; 
 position: absolute;
 width: 362px;
@@ -599,7 +599,7 @@ height: 226px;
 margin-left: 80px;
 margin-top: 3100px;}.project6:hover{
 box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
-background: url("minesweeper.png") no-repeat;
+background: url("tic1.jpg") no-repeat;
 background-size: 100% 100%; 
 margin-top: 3100px;}
 .project6text{position: absolute;
@@ -607,6 +607,33 @@ width: 411px;
 height: 201px;
 margin-left: 460px;
 margin-top: 3100px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+letter-spacing: -0.531474px;	
+color: #FFFFFF;}
+
+.project7{background: url("minesweeper2.png") no-repeat;
+background-size: 102% 102%; 
+position: absolute;
+width: 362px;
+height: 226px;
+margin-left: 80px;
+margin-top: 3385px;}.project7:hover{
+box-shadow: 0 0 5px #FFE071, 0 0 25px #FFE071,0 0 50px #FFE071, 0 0 200px #FFE071;
+background: url("minesweeper.png") no-repeat;
+background-size: 100% 100%; 
+margin-top: 3385px;}
+
+.project7text{position: absolute;
+width: 411px;
+height: 201px;
+margin-left: 460px;
+margin-top: 3385px;
 
 font-family: 'Poppins';
 font-style: normal;
@@ -626,7 +653,7 @@ position: absolute;
 width: 100px;
 height: 226px;
 margin-left: 380px;
-margin-top: 3450px;	
+margin-top: 3750px;	
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -639,7 +666,7 @@ color: #A3ABB2;
 width:750px;
 position: absolute;
 margin-left: 80px;
-margin-top: 3540px;	
+margin-top: 3840px;	
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
